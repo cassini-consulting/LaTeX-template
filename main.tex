@@ -1,0 +1,19 @@
+\documentclass[12pt]{article}
+\include{packages}
+
+\begin{document}
+	\include{titlepage}
+    
+    \include{content/abstract}
+    \newpage
+    \tableofcontents
+    \listoffigures
+    \printglossary
+    \newpage
+    
+    \input{content/page}
+    
+    \bibliographystyle{abbrv}
+    \bibliography{bib/bib.bib}
+    
+\end{document}
